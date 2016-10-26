@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.wordpress.ishansaysjava.advisingscheduler.CourseListActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:onClick="addCourse"
+        android:id="@+id/course1"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:onClick="addCourse"
+        android:id="@+id/course2"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:onClick="addCourse"
+        android:id="@+id/course3"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:onClick="addCourse"
+        android:id="@+id/course4"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:onClick="addCourse"
+        android:id="@+id/course5"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:text="Check Clash"
+        android:textColor="@android:color/holo_red_light"
+        android:background="@android:color/transparent"
+        android:onClick="checkClash"/>
+
+</LinearLayout>

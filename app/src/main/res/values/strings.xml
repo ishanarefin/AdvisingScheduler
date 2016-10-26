@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">"Advising Scheduler "</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_course_list">CourseListActivity</string>
+    <string name="title_activity_add_course">AddCourseActivity</string>
+    <string name="title_activity_course">CourseActivity</string>
+    <string-array name="classtime">
+        <item>8 am - 9.20 pm</item>
+        <item>9.30am - 10.50am</item>
+        <item>11 am -12.20 pm</item>
+        <item>12.30 pm - 1.50 pm</item>
+        <item>2 pm - 3.20 pm</item>
+        <item>3.30 pm - 4.50 pm</item>
+        <item>5 pm - 6.20 pm</item>
+    </string-array>
+
+    <string-array name="labtime">
+        <item>N/A</item>
+        <item>8 am - 10.50 am</item>
+        <item>11 am -1.50 pm</item>
+        <item>2 pm - 4.50 pm</item>
+    </string-array>
+
+    <string-array name="class_day">
+        <item>Sun/Tue</item>
+        <item>Mon/Wed</item>
+    </string-array>
+
+    <string-array name="lab_day">
+        <item>N/A</item>
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thr</item>
+    </string-array>
+
+</resources>
